@@ -23,6 +23,11 @@ class UpComingViewController: UITableViewController {
         self.tableView.dataSource = self
         self.tableView.delegate = self
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.parent?.title = "Up Coming"
+        
+    }
+
     func loadData()  {
         TMDb.getUpcomingListFireBase(completionHandler: { (movies, error) in
             if(error != nil) {

@@ -23,12 +23,15 @@
 		A72D290F1EE86FDE00C48C94 /* ZSeatSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72D290D1EE86FDE00C48C94 /* ZSeatSelector.swift */; };
 		A735F04C1EE3F3CD00F399C5 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735F04B1EE3F3CD00F399C5 /* UserInfo.swift */; };
 		A735F0501EE41E8100F399C5 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735F04F1EE41E8100F399C5 /* Trailer.swift */; };
-		A73C9AC11EE5CCD000BD3215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A73C9AC01EE5CCD000BD3215 /* GoogleService-Info.plist */; };
 		A73E371D1EE8450F0063BBAE /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73E371B1EE8450F0063BBAE /* PopularViewController.swift */; };
 		A73E371E1EE8450F0063BBAE /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73E371C1EE8450F0063BBAE /* UpComingViewController.swift */; };
 		A75320971EE1B38900E75BE3 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75320961EE1B38900E75BE3 /* NowPlayingViewController.swift */; };
+		A77002AB1EF1B89D0095010D /* getinforUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77002AA1EF1B89D0095010D /* getinforUser.swift */; };
 		A7A155C01EE3237B00E9492E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A155BF1EE3237B00E9492E /* UserViewController.swift */; };
 		A7A155C21EE323DC00E9492E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A155C11EE323DC00E9492E /* LoginController.swift */; };
+		A7C74A461EF11B8600A27F3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7C74A451EF11B8600A27F3A /* GoogleService-Info.plist */; };
+		A7C74A481EF1270600A27F3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74A471EF1270600A27F3A /* LoginViewController.swift */; };
+		A7C74A4A1EF135EF00A27F3A /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74A491EF135EF00A27F3A /* RegisterController.swift */; };
 		BB51314F1ED980DF00457B1B /* TMDbv3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51314E1ED980DF00457B1B /* TMDbv3.swift */; };
 		BB5131521ED980EA00457B1B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5131501ED980EA00457B1B /* Movie.swift */; };
 		BB5131531ED980EA00457B1B /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5131511ED980EA00457B1B /* MovieDetail.swift */; };
@@ -85,12 +88,15 @@
 		A72D290D1EE86FDE00C48C94 /* ZSeatSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSeatSelector.swift; sourceTree = "<group>"; };
 		A735F04B1EE3F3CD00F399C5 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		A735F04F1EE41E8100F399C5 /* Trailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
-		A73C9AC01EE5CCD000BD3215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A73E371B1EE8450F0063BBAE /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
 		A73E371C1EE8450F0063BBAE /* UpComingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
 		A75320961EE1B38900E75BE3 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		A77002AA1EF1B89D0095010D /* getinforUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getinforUser.swift; sourceTree = "<group>"; };
 		A7A155BF1EE3237B00E9492E /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		A7A155C11EE323DC00E9492E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A7C74A451EF11B8600A27F3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7C74A471EF1270600A27F3A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A7C74A491EF135EF00A27F3A /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		BB51314E1ED980DF00457B1B /* TMDbv3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDbv3.swift; sourceTree = "<group>"; };
 		BB5131501ED980EA00457B1B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BB5131511ED980EA00457B1B /* MovieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
@@ -167,7 +173,7 @@
 				3AF7D2DB1ED96BF8001DF490 /* Main.storyboard */,
 				3AF7D2E11ED96BF8001DF490 /* Assets.xcassets */,
 				3AF7D2E61ED96BF8001DF490 /* Info.plist */,
-				A73C9AC01EE5CCD000BD3215 /* GoogleService-Info.plist */,
+				A7C74A451EF11B8600A27F3A /* GoogleService-Info.plist */,
 				3AF7D2E31ED96BF8001DF490 /* LaunchScreen.storyboard */,
 				3AF7D2DE1ED96BF8001DF490 /* MovieApp.xcdatamodeld */,
 			);
@@ -220,6 +226,7 @@
 				BB51314E1ED980DF00457B1B /* TMDbv3.swift */,
 				BB51315D1ED986A700457B1B /* Downloader.swift */,
 				BB5131561ED9837900457B1B /* Struct.swift */,
+				A77002AA1EF1B89D0095010D /* getinforUser.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -228,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				A7A155C11EE323DC00E9492E /* LoginController.swift */,
+				A7C74A471EF1270600A27F3A /* LoginViewController.swift */,
 				BB51315B1ED9844000457B1B /* NowPlayingTVCell.swift */,
 				A75320961EE1B38900E75BE3 /* NowPlayingViewController.swift */,
 				A72D290C1EE86FDE00C48C94 /* SeatViewController.swift */,
@@ -241,6 +249,7 @@
 				CF209D701EEC5AB600EE0098 /* XuatChieuCell.swift */,
 				CF209D6E1EEC438000EE0098 /* DesignButton.swift */,
 				3A66F8EB1EE7DB1A00FF3EFE /* ChangePasswordViewController.swift */,
+				A7C74A491EF135EF00A27F3A /* RegisterController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -376,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF7D2E51ED96BF8001DF490 /* LaunchScreen.storyboard in Resources */,
-				A73C9AC11EE5CCD000BD3215 /* GoogleService-Info.plist in Resources */,
+				A7C74A461EF11B8600A27F3A /* GoogleService-Info.plist in Resources */,
 				3AF7D2E21ED96BF8001DF490 /* Assets.xcassets in Resources */,
 				3AF7D2DD1ED96BF8001DF490 /* Main.storyboard in Resources */,
 			);
@@ -554,12 +563,15 @@
 				A735F0501EE41E8100F399C5 /* Trailer.swift in Sources */,
 				3AF7D2E01ED96BF8001DF490 /* MovieApp.xcdatamodeld in Sources */,
 				A73E371D1EE8450F0063BBAE /* PopularViewController.swift in Sources */,
+				A7C74A481EF1270600A27F3A /* LoginViewController.swift in Sources */,
+				A7C74A4A1EF135EF00A27F3A /* RegisterController.swift in Sources */,
 				CF1984761EED52D900A29EEE /* Schedule.swift in Sources */,
 				BB51315C1ED9844000457B1B /* NowPlayingTVCell.swift in Sources */,
 				A72D290F1EE86FDE00C48C94 /* ZSeatSelector.swift in Sources */,
 				BB5131531ED980EA00457B1B /* MovieDetail.swift in Sources */,
 				BB51314F1ED980DF00457B1B /* TMDbv3.swift in Sources */,
 				A735F04C1EE3F3CD00F399C5 /* UserInfo.swift in Sources */,
+				A77002AB1EF1B89D0095010D /* getinforUser.swift in Sources */,
 				A75320971EE1B38900E75BE3 /* NowPlayingViewController.swift in Sources */,
 				BB5131571ED9837900457B1B /* Struct.swift in Sources */,
 				A73E371E1EE8450F0063BBAE /* UpComingViewController.swift in Sources */,

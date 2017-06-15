@@ -22,6 +22,11 @@ class PopularViewController: UITableViewController{
         self.tableView.separatorStyle = .none
 
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.parent?.title = "Popular"
+        
+    }
+
     func loadData()  {
         TMDb.getPopularListFireBase(completionHandler: { (movies, error) in
             if(error != nil) {

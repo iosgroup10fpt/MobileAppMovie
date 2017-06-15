@@ -23,6 +23,11 @@ class NowPlayingViewController: UITableViewController{
         self.tableView.separatorStyle = .none
        
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.parent?.title = "Now Playing"
+        
+    }
+
     func loadData()  {
         TMDb.getNowPlayListFireBase(completionHandler: { (movies, error) in
             if(error != nil) {

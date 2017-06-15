@@ -39,6 +39,37 @@ class LoginController: UIViewController {
         
         return button
     }()
+    /*
+     call back home
+     */
+    lazy var CallBackHome: UIButton = {
+//        let button = UIButton(type: .system) // let preferred over var here
+//     //   button.frame = CGRectMake(100, 100, 100, 50)
+//        button.backgroundColor = UIColor.green
+//        button.setTitle("Button", for: UIControlState.normal)
+//        button.addTarget(self, action: Selector("Action:"), for: UIControlEvents.touchUpInside)
+//      //  self.view.addSubview(button)
+        
+        let button = UIButton(type: .system)
+        button.backgroundColor = UIColor(r: 80, g: 101, b: 161)
+        button.setTitle("Home", for: UIControlState())
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        
+        button.addTarget(self, action: #selector(forwardScreen), for: .touchUpInside)
+        
+        return button
+    }()
+    func forwardScreen() {
+        print("Call Func Susscess!!")
+        guard let controller = self.storyboard?.instantiateViewController(withIdentifier: "ChangePasswordViewController") as? ChangePasswordViewController else {
+            print("call NowPlaying fail!!")
+         //   self.navigationController?.pushViewController(controller, animated: true)
+            return
+        }
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
     
     func handleLoginRegister() {
         if loginRegisterSegmentedControl.selectedSegmentIndex == 0 {
@@ -188,6 +219,7 @@ class LoginController: UIViewController {
         
         view.addSubview(inputsContainerView)
         view.addSubview(loginRegisterButton)
+        view.addSubview(CallBackHome)
         view.addSubview(profileImageView)
         view.addSubview(loginRegisterSegmentedControl)
         view.addSubview(labelStatus)
@@ -196,7 +228,19 @@ class LoginController: UIViewController {
         setupProfileImageView()
         setupLoginRegisterSegmentedControl()
         setupLabelStatus()
+        setupCallBackHomeButton()
     }
+    /*
+     Set up button Call back home
+     */
+    func setupCallBackHomeButton() {
+        //need x, y, width, height constraints
+        CallBackHome.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        CallBackHome.topAnchor.constraint(equalTo: inputsContainerView.bottomAnchor, constant: 20).isActive = true
+        CallBackHome.widthAnchor.constraint(equalTo: inputsContainerView.widthAnchor).isActive = true
+        CallBackHome.heightAnchor.constraint(equalToConstant: 10).isActive = true
+    }
+
     func setupLabelStatus() {
         //need x, y, width, height constraints
         labelStatus.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
